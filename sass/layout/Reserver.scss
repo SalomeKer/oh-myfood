@@ -1,0 +1,53 @@
+/* RESERVER */
+
+.Reserver {
+    background-color: #f5f5f5;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    text-align: center; 
+    h3 {
+      margin-top: 32px;
+      margin-bottom: 13px;
+    } 
+  
+  button {
+    margin-top: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    box-shadow: 0px 0px 12px gray;
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px; }
+    button:hover {
+    box-shadow: 0px 0px 12px rgb(93, 93, 93);
+    background-image: linear-gradient(#fe9ae2, #a881d8);
+    }
+    p {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 200; }
+}
+.loader {
+  position: fixed;
+   height: 100%;
+   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  place-items: center;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  inset: 0;
+  z-index: 1;
+  animation: loader-opacity 0.3s;
+  animation-delay: 2.5s;
+  animation-fill-mode: forwards;
+  i{
+    font-size: 80px;
+    color:#9356DC;
+    animation: loader_animation 0.5s infinite alternate;
+  }
+
+}

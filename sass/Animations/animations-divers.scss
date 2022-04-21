@@ -1,0 +1,36 @@
+@keyframes circle_rotation {
+    0%{
+        transform: rotate(-360deg);
+    }
+    100%{
+     transform: rotate(0);
+ }
+}
+
+@keyframes chargement {
+
+ 0% {
+     transform: translateY(50%);
+     opacity: 0;
+ }
+ 100% {
+     transform: translateY(0);
+     opacity: 1;
+ }
+} 
+
+@keyframes loader-opacity {
+
+ 0% {
+     opacity: 1;
+     transform: scale(1);
+ }
+ 100% {
+     opacity: 0;
+     transform: scale(0);
+ }
+} 
+
+@keyframes loader_animation{
+ to { transform: scale(1.4);}
+}

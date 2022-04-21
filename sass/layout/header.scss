@@ -1,0 +1,27 @@
+/* HEADER */
+ 
+header {
+    font-family: 'shrikhand', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    box-shadow: 1px 1px 10px rgb(192, 192, 192);
+    position: relative; 
+    margin: 0;
+    .page_header {
+      display: flex;
+      align-items: center;
+    .nav_icon{
+      position: absolute;
+      font-size: 20px;
+      left: 30px;
+      a{
+        color: #353535;
+      }
+    }
+    }
+    }
+
+  
+  
+  
