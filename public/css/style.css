@@ -69,7 +69,10 @@ header {
   .Reserver h3 {
     margin-top: 32px;
     margin-bottom: 13px; }
-  .Reserver button {
+  .Reserver #btnRestaurants {
+    display: flex;
+    justify-content: center; }
+  .Reserver .button {
     margin-top: 15px;
     cursor: pointer;
     background-image: linear-gradient(#FF79DA, #9356DC);
@@ -79,11 +82,11 @@ header {
     padding: 15px;
     border: none;
     border-radius: 30px; }
-    .Reserver button a {
+    .Reserver .button:hover {
+      box-shadow: 0px 0px 12px #5d5d5d;
+      background-image: linear-gradient(#fe9ae2, #a881d8); }
+    .Reserver .button a {
       color: white; }
-  .Reserver button:hover {
-    box-shadow: 0px 0px 12px #5d5d5d;
-    background-image: linear-gradient(#fe9ae2, #a881d8); }
   .Reserver p {
     margin-top: 10px;
     font-size: 19px;
